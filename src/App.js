@@ -1,6 +1,9 @@
 // App.js
 import React, { useState } from 'react';
 import './App.css'; // 👈 Add this line
+import app from './firebase';
+// Then import specific Firebase services, e.g. Firestore, Auth, etc., using `app`
+
 
 const employees = [
   { id: 1, name: "Developer A", role: "Developer", salary: 6000 },
